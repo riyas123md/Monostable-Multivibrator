@@ -11,15 +11,7 @@ To design and simulate a Monostable Multivibrator using NE555 in Proteus Design 
 •	CRO / Oscilloscope
 •	Connecting wires
 ## Circuit Diagram
-Pin Connections:
-•	Pin 1 → Ground
-•	Pin 2 → Trigger (Connected to push button)
-•	Pin 3 → Output
-•	Pin 4 → Reset (Connected to Vcc)
-•	Pin 5 → Control Voltage (Optional 0.01 µF capacitor to ground)
-•	Pin 6 → Threshold
-•	Pin 7 → Discharge
-•	Pin 8 → Vcc
+<img width="1585" height="850" alt="Screenshot 2026-02-23 224013" src="https://github.com/user-attachments/assets/d56d8505-77a8-4f2d-bac4-11736ebff392" />
 ## Circuit Connections:
 •	Resistor R → Between Vcc and Pin 7
 •	Capacitor C → Between Pins 6 & 7 and Ground
@@ -43,11 +35,11 @@ The NE555 operating in monostable mode acts as a one-shot pulse generator. It ha
 6.	Observe output pulse on CRO.
 7.	Measure pulse width.
 ## Tabulation
-S.No	        R (kΩ)	          C (µF)	        Theoretical Pulse Width	            Practical Pulse Width
+<img width="925" height="265" alt="image" src="https://github.com/user-attachments/assets/97720b5b-2114-4663-b9fd-e08485da716a" />## Waveform
+
 ## Waveform
-•	Trigger → Short negative pulse
-•	Output → Single positive pulse
-•	Capacitor voltage → Exponential charging waveform
+
+<img width="1364" height="871" alt="Screenshot 2026-02-23 223955" src="https://github.com/user-attachments/assets/b7aedc2b-d9ec-480e-a1ba-477507a1b562" />
 ## Result
 The Monostable Multivibrator using NE555 Timer IC was successfully designed and simulated in Proteus.
 A single output pulse of duration approximately 1.1 seconds was obtained.
@@ -59,8 +51,24 @@ The practical value closely matches the theoretical value.
 •	Used in timers, delay circuits, and pulse generation applications.
 ## Viva Questions
 1.	What is a monostable multivibrator?
+
+A monostable multivibrator is a circuit having one stable state and one quasi-stable state. It produces a single output pulse when triggered.
+
 2.	Write the pulse width formula.
+
+T = 1.1 RC
+
 3.	What is the stable state of monostable?
+
+The stable state is LOW output.
+
 4.	Why is it called “one-shot”?
+
+Because it produces only one output pulse for each trigger input.
+
 5.	What happens if capacitor value increases?
+
+Pulse width increases.
+
+
 
